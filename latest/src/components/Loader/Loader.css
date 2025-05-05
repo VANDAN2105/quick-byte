@@ -1,0 +1,29 @@
+.food-loader{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+.container{
+    min-height: 500px;
+    min-width: 500px;
+
+}
+
+.food-loader {
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+
+     }
+.container{
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+     }
