@@ -38,7 +38,7 @@ const List = ({ url }) => {
             <b>Image</b>
             <b>Name</b>
             <b>Category</b>
-            <b>Price</b>
+            <b>Prices</b>
             <b>Action</b>
           </div>
           {list.map((item, index) => {
@@ -66,3 +66,4 @@ const List = ({ url }) => {
 };
 
 export default List;
+
